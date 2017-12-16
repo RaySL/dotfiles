@@ -11,8 +11,8 @@ hc keyunbind --all
 
 # startup execs
 #xmodmap ~/.speedswapper
-#pkill compton
-#compton &
+pkill compton
+compton &
 #killall dunst
 #dunst -conf /home/icyphox/.config/dunst/dunstrc &
 #xrdb .Xresources
