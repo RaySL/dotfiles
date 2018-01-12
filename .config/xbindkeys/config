@@ -43,14 +43,28 @@
   control+shift + q
 
 # set directly keycode (here control + f with my keyboard)
-"xterm"
-  c:41 + m:0x4
+#"xterm"
+#  c:41 + m:0x4
 
 # specify a mouse button
-"xterm"
-  control + b:2
+#"xterm"
+#  control + b:2
 
-# TODO: add volume keys "amixer sset Master +5%"
+"amixer sset Master 5%+ unmute"
+  XF86AudioRaiseVolume
+
+"amixer sset Master 5%- unmute"
+  XF86AudioLowerVolume
+
+"amixer set Master toggle"
+  XF86AudioMute
+
+"xbacklight -inc 10"
+  XF86MonBrightnessUp
+
+"xbacklight -dec 10"
+  XF86MonBrightnessDown
+
 
 #"xterm -geom 50x20+20+20"
 #   Shift+Mod2+alt + s
