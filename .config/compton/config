@@ -74,7 +74,7 @@ shadow-opacity = 0.6;
 
 # Set if you want different colour shadows
 shadow-red = 0.1;
-shadow-green = 0.0;
+shadow-green = 0.1;
 shadow-blue = 0.1;
 
 # The shadow exclude options are helpful if you have shadows enabled. Due to the way compton draws its shadows, certain applications will have visual glitches
