@@ -70,7 +70,7 @@ plugins=(
 alias sleep="systemctl suspend"
 
 
-export XDG_CONFIG_HOME="~/.config"
+export XDG_CONFIG_HOME="/home/ray/.config"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -85,4 +85,4 @@ fi
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-ttyctl -f
+#ttyctl -f
