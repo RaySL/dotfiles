@@ -156,30 +156,7 @@ hc unlock
 herbstclient set tree_style '╾│ ├└╼─┐'
 
 herbstclient chain $cmds&
-
-
 herbstclient emit_hook reload
 
-
-
-xbindkeys -f $HOME/.config/xbindkeys/config
-
-# startup execs
-#xmodmap ~/.speedswapper
-pkill compton
-compton --config $HOME/.config/compton/config &
-#killall dunst
-#dunst -conf /home/icyphox/.config/dunst/dunstrc &
-xrdb $HOME/.config/Xresources/config &
-
-feh --bg-fill --no-fehbg ~/img/wal/background
-
-pkill polybar
-polybar examplebar &
-
-nm-applet&
-
-#pkill redshift
-#redshift -O 5500K
 
 
