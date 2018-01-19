@@ -3,6 +3,7 @@
 
 config_version: 1
 global:
+  backend: webkit
   colors.hints.bg: black
   colors.hints.fg: white
   colors.hints.match.fg: '#88FF88'
@@ -23,9 +24,9 @@ global:
   fonts.messages.error: 11pt monospace
   fonts.messages.info: 11pt monospace
   fonts.messages.warning: 11pt monospace
-  fonts.monospace: 'Hack, "xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco,
-    "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation
-    Mono", monospace, Fixed, Consolas, Terminal'
+  fonts.monospace: Hack, "xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono",
+    Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation
+    Mono", monospace, Fixed, Consolas, Terminal
   fonts.prompts: 11pt sans-serif
   fonts.statusbar: 11pt monospace
   fonts.tabs: 11pt monospace
