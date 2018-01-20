@@ -13,13 +13,13 @@ alacritty -e ncmpcpp &
 alacritty -e cava &
 
 # Start xbindkeys
-xbindkeys -f $XDG_CONFIG_HOME/xbindkeys/config &
+xbindkeys -f $HOME/.config/xbindkeys/config &
 
 # Start compton
 compton --config $HOME/.config/compton/config &
 
 # Read Xresources
-xrdb $XDG_CONFIG_HOME/Xresources/config
+xrdb $HOME/.config/Xresources/config
 
 # Set wallpaper
 feh --bg-fill --no-fehbg ~/img/wal/background &
