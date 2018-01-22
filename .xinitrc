@@ -30,6 +30,9 @@ polybar examplebar &
 # Start NetworkManager applet
 nm-applet &
 
+# Start xautolock
+xautolock -time 20 -locker "i3lock-fancy -- scrot -z"
+
 # Start our window manager
 exec herbstluftwm --locked
 
